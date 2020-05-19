@@ -18,18 +18,7 @@ As stated in the introduction, [PlantUML](https://plantuml.com/) is a tool to cr
 For me, the main differentiator with other tools is that it’s text-based. As such, I focus on the actual diagram and not on struggling with manually aligning my blocks.
 
 To give an example, this is a basic interaction between two components:
-~~~
-@startuml
-Driver -> Bus : Read ID
-return ID
-
-...
-
-Driver -> Bus : Write power (Fast mode)
-return Ok
-hnote over Bus: Fast mode
-@enduml
-~~~
+{% gist 3a0e8ad0b21f9552a27b287d6febce9b %}
 
 Which generates this diagram:
 ![Example diagram](/assets/plantuml-example.png)
@@ -61,7 +50,7 @@ Recently I discovered a (for me) new feature, the proxy service. The same [web s
 I found this to be a powerful feature, as now I can place my text files inside a git repository and generate the corresponding images _on the fly_ using this service.
 
 Just like this:
-![Example diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/renemoll/renemoll.github.io/master/assets/plantuml-example-proxy.txt)
+![Example diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/renemoll/renemoll.github.io/master/assets/plantuml-example-proxy.txt)
 
 # Integration with my documentation workflow
 
