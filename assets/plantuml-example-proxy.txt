@@ -1,0 +1,6 @@
+@startuml
+Browser -> Server : Send text UML
+return Diagram
+
+hnote over Browser: Amazed
+@enduml
