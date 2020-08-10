@@ -23,7 +23,7 @@ To give an example, this is a basic interaction between two components:
 Which generates this diagram:
 ![Example diagram](/assets/plantuml-example.png)
 
-And thats all there is to it.
+And that's all there is to it.
 
 Now, there are a few ways of working with this tool. You can run a [local application](https://plantuml.com/starting) which scans the current folder for compatible files and generates the diagrams. Run a local web-server via a [docker image](https://hub.docker.com/r/plantuml/plantuml-server/), which is what I prefer to do. Or use the [online server](http://www.plantuml.com/plantuml/uml/), do keep in mind this option may cache your diagrams.
 
@@ -31,11 +31,11 @@ Now, there are a few ways of working with this tool. You can run a [local applic
 
 I like that:
 
-* It’s text! Everyone can read it, both humans and machines (and thus, any application which handles plain text). 
+* It’s text! Everyone can read it, both humans and machines (and thus, any application which handles plain text).
 
 * With a few simple commands, I can quickly write (yes, write) most of my diagrams. I feel that not having to switch between the mouse and keyboard made the whole process a lot faster.
 
-* Since the diagrams are text, I can handle it the same as code. And as such, I can easily integrate it into my development process. Want to see what has changed? Create a diff. Want to review changes? Use my review tool to highlight changes and report feedback. 
+* Since the diagrams are text, I can handle it the same as code. And as such, I can easily integrate it into my development process. Want to see what has changed? Create a diff. Want to review changes? Use my review tool to highlight changes and report feedback.
 
 * It only does diagrams. Do one thing and do it well.
 
@@ -64,6 +64,6 @@ But how do I ensure the images match the text? Not only that, how to handle diff
 
 ## Mixing source code and UML text
 
-This depends on the project and how the code is organized. Within the workplace, I separate the UML and source code, as this is our convention. 
+This depends on the project and how the code is organized. Within the workplace, I separate the UML and source code, as this is our convention.
 
 Personally, I imagine combining certain design diagrams within the codebase combined within [architecture records](https://github.com/adr/adr-tools).
