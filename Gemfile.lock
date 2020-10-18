@@ -267,6 +267,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-theme-hydeout
+  jemoji
 
 BUNDLED WITH
    2.0.2
